@@ -47,7 +47,8 @@ header nav ul li a {
 }
 
 footer {
-    background-color: rgb(255, 239, 175);
+    background-color: rgb(107, 194, 107);
+    color: rgb(255, 239, 175);
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -55,7 +56,12 @@ footer {
     flex-wrap: wrap;
 }
 
-article, section {
+footer a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+article {
     background-color: rgb(107, 194, 107);
     color: rgb(255, 239, 175);
     line-height: 1.7;
@@ -74,3 +80,27 @@ article h2 {
 article p {
     margin: 10px 100px;
 }
+
+section {
+    background-color: rgb(255, 239, 175);
+    color: rgb(107, 194, 107);
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section h2 {
+    margin: 0 auto;
+    text-align: left;
+}
+
+img {
+    border: 1px solid;
+    border-radius: 4px;
+    max-width: 25%;
+    height: 25%;
+    float: right;
+}
+
