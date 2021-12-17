@@ -93,8 +93,8 @@ section {
     width: 100%;
     margin: 50px auto;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 section h2 {
@@ -105,13 +105,16 @@ section h2 {
 
 .image-div {
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section img {
     margin: 0 auto 35px auto;
+    padding: 10px;
     width: 50%;
-    border: 1px solid;
     border-radius: 4px;
     height: 25%;
+    flex-basis: 50%;
 }
 
