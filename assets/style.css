@@ -8,18 +8,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 header {
-    padding: 50px 35;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* padding: 50px 35;
+    margin: 50px auto; */
 }
 
 header h1 {
-    font-weight: bold;
+    /* font-weight: bold;
     margin: 5px 0;
-    font-size: 36px;
+    font-size: 36px; */
 }
 
 header a {
@@ -28,7 +27,7 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    /*  */
 }
 
 header nav ul {
@@ -45,16 +44,21 @@ header nav ul li a {
 }
 
 footer {
-    width: 100%;
-    font-size: 20px;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
+    padding: 50px 35;
+    margin: 50px 0;
+}
+
+footer h2 {
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 36px;
 }
 
 footer a {
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 0.75vw;
 }
 
 article {
@@ -63,44 +67,34 @@ article {
     background-position: 60%;
     background-attachment: fixed;
     padding: 200px;
-    width: 100%;
-    margin: 50px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    margin: 50px 0;
    }
 
 article h2 {
     text-align: center;
     background-color: white;
-    margin: 0 auto 35px auto;
+    margin: 0 0 35px 0;
     border-radius: 10px;
-    width: 25%;
     color: black;  
 }
 
 article p {
     text-align: center;
     background-color: black;
-    margin: 0 auto 35px auto;
+    margin: 0 0 35px 0;
     padding: 10px;
     border-radius: 10px;
-    width: 50%;
+    /* width: 50%; */
     color: white;
 }
 
 section {
-    width: 100%;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /*  */
 }
 
 section h2 {
     text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
+    margin: 0 0 35px 0;
 }
 
 .image-div {
@@ -110,11 +104,25 @@ section h2 {
 }
 
 section img {
-    margin: 0 auto 35px auto;
+    margin: 0 0 35px 0;
     padding: 10px;
     width: 50%;
     border-radius: 4px;
     height: 25%;
     flex-basis: 50%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    padding: 1rem;
+}
+
+.flex-left{
+    width: 25%;
+    flex-shrink: 0;
+    border: 2px solid red;
 }
 
