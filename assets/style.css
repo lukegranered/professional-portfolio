@@ -9,9 +9,11 @@ body {
 }
 
 header {
-    padding: 20px 35;
+    padding: 50px 35;
+    margin: 50px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header h1 {
@@ -33,7 +35,6 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
@@ -45,10 +46,10 @@ header nav ul li a {
 
 footer {
     width: 100%;
+    font-size: 20px;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 footer a {
@@ -58,41 +59,62 @@ footer a {
 
 article {
     background-image: url(./images/betteroff-086.jpg);
-    line-height: 1.7;
+    background-size: cover;
+    background-position: 60%;
+    background-attachment: fixed;
+    padding: 200px;
     width: 100%;
-    font-size: 20px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
-    justify-content: space-between;
-}
+    align-items: center;
+    justify-content: space-around;
+   }
 
 article h2 {
-    margin: 0 auto;
-    text-align: left;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto 35px auto;
+    border-radius: 10px;
+    width: 25%;
+    color: black;  
 }
 
 article p {
-    margin: 10px 100px;
+    text-align: center;
+    background-color: black;
+    margin: 0 auto 35px auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    color: white;
 }
 
 section {
     width: 100%;
-    font-size: 20px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 section h2 {
-    margin: 0 auto;
-    text-align: left;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
-img {
-    border: 1px solid;
+.image-div {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section img {
+    margin: 0 auto 35px auto;
+    padding: 10px;
+    width: 50%;
     border-radius: 4px;
-    max-width: 25%;
     height: 25%;
-    float: right;
+    flex-basis: 50%;
 }
 
